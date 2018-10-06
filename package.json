@@ -1,0 +1,15 @@
+{
+  "name": "chrab_matching_engine_api",
+  "version": "1.0.0",
+  "description": "Node.js",
+  "author": "Matt LaMeyer <matthew.lameyer@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "install": "^0.12.1",
+    "npm": "^6.4.1"
+  }
+}
