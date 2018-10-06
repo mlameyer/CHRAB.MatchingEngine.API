@@ -1,14 +1,13 @@
-const http = require('http');
+// intro point for our server.
+// PRO-TIP: if you have an index.js file
+// on the root of a folder in node
+// you can just require that folder and node will
+// automatically require the index.js on the root
 
-const hostname = '127.0.0.1';
-const port = 3000;
+// setup config first before anything by requiring it
+var config = require('./server/config/config');
+var app = require('./server/server');
+var logger = require('./server/util/logger');
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World\n');
-});
-
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+app.listen(config.port);
+logger.log('listening on http://localhost:' + config.port);
