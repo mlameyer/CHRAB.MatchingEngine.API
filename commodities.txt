@@ -1,0 +1,96 @@
+{
+    "Commodity": "MSPLAS",
+    "DestinationCity": "Los Angeles",
+    "OriginCity": "Minneapolis",
+    "IntraCity": "false",
+    "InterCity": "true",
+    "ExpireDateTime": "2019-12-31"
+}
+{
+    "Commodity": "LASMSP",
+    "DestinationCity": "Minneapolis",
+    "OriginCity": "Los Angeles",
+    "IntraCity": "false",
+    "InterCity": "true",
+    "ExpireDateTime": "2019-12-31"
+}
+{
+    "Commodity": "MSPCHI",
+    "DestinationCity": "Chicago",
+    "OriginCity": "Minneapolis",
+    "IntraCity": "false",
+    "InterCity": "true",
+    "ExpireDateTime": "2019-12-31"
+}
+{
+    "Commodity": "CHIMSP",
+    "DestinationCity": "Minneapolis",
+    "OriginCity": "Chicago",
+    "IntraCity": "false",
+    "InterCity": "true",
+    "ExpireDateTime": "2019-12-31"
+}
+{
+    "Commodity": "MSPATL",
+    "DestinationCity": "Atlanta",
+    "OriginCity": "Minneapolis",
+    "IntraCity": "false",
+    "InterCity": "true",
+    "ExpireDateTime": "2019-12-31"
+}
+{
+    "Commodity": "ATLMSP",
+    "DestinationCity": "Minneapolis",
+    "OriginCity": "Atlanta",
+    "IntraCity": "false",
+    "InterCity": "true",
+    "ExpireDateTime": "2019-12-31"
+}
+{
+    "Commodity": "CHILAS",
+    "DestinationCity": "Los Angeles",
+    "OriginCity": "Chicago",
+    "IntraCity": "false",
+    "InterCity": "true",
+    "ExpireDateTime": "2019-12-31"
+}
+{
+    "Commodity": "LASCHI",
+    "DestinationCity": "Chicago",
+    "OriginCity": "Los Angeles",
+    "IntraCity": "false",
+    "InterCity": "true",
+    "ExpireDateTime": "2019-12-31"
+}
+{
+    "Commodity": "CHIATL",
+    "DestinationCity": "Atlanta",
+    "OriginCity": "Chicago",
+    "IntraCity": "false",
+    "InterCity": "true",
+    "ExpireDateTime": "2019-12-31"
+}
+{
+    "Commodity": "ATLCHI",
+    "DestinationCity": "Chicago",
+    "OriginCity": "Atlanta",
+    "IntraCity": "false",
+    "InterCity": "true",
+    "ExpireDateTime": "2019-12-31"
+}
+{
+    "Commodity": "ATLLAS",
+    "DestinationCity": "Los Angeles",
+    "OriginCity": "Atlanta",
+    "IntraCity": "false",
+    "InterCity": "true",
+    "ExpireDateTime": "2019-12-31"
+}
+{
+    "Commodity": "LASATL",
+    "DestinationCity": "Atlanta",
+    "OriginCity": "Los Angeles",
+    "IntraCity": "false",
+    "InterCity": "true",
+    "ExpireDateTime": "2019-12-31"
+}

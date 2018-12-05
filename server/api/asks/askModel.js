@@ -3,11 +3,13 @@ const Schema = mongoose.Schema;
 
 const Ask = new Schema({
     AskId: Schema.Types.ObjectId,
+    Commodity: String,
     PartyCode: String,
     Price: Number,
     Quantity: Number,
     UnitOfMeasurement: Number,
-    Lane: Number,
+    DestinationCity: String,
+    OriginCity: String,
     IntraCity: Boolean,
     InterCity: Boolean,
     EnteredDateTime: { type: Date, default: Date.now },

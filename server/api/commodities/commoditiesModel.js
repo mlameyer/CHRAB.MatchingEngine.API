@@ -1,13 +1,9 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const Bid = new Schema({
-    BidId: Schema.Types.ObjectId,
+const Commodity = new Schema({
+    CommodityId: Schema.Types.ObjectId,
     Commodity: String,
-    PartyCode: String,
-    Price: Number,
-    Quantity: Number,
-    UnitOfMeasurement: Number,
     DestinationCity: String,
     OriginCity: String,
     IntraCity: Boolean,
@@ -15,6 +11,6 @@ const Bid = new Schema({
     EnteredDateTime: { type: Date, default: Date.now },
     ModifiedDateTime: Date,
     ExpireDateTime: Date
-}, { collection: 'MatchingEngine' });
+}, { collection: 'MatchingEngine.Commodities' });
 
-module.exports = mongoose.model('bid', Bid);
+module.exports = mongoose.model('commodity', Commodity);
