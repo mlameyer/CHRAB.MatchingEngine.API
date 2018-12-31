@@ -1,8 +1,8 @@
 var Commodity = require('./commoditiesModel');
 var _ = require('lodash');
 
-exports.params = function(req, res, next, id) {
-    Commodity.findById(id)
+exports.params = function(req, res, next, comm) {
+    Commodity.findOne({Commodity: comm})
     .then(function(commodity) {
       if (!commodity) {
         next(new Error('No commodity with that id'));
