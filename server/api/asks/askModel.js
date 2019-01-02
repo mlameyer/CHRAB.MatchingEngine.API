@@ -15,6 +15,6 @@ const Ask = new Schema({
     EnteredDateTime: { type: Date, default: Date.now },
     ModifiedDateTime: Date,
     ExpireDateTime: Date
-}, { collection: 'MatchingEngine' });
+}, { collection: 'MatchingEngine.Ask' });
 
 module.exports = mongoose.model('ask', Ask);
