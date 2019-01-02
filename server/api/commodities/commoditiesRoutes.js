@@ -6,14 +6,14 @@ var controller = require('./commoditiesController');
 // var checkUser = [auth.decodeToken(), auth.getFreshUser()];
 // setup boilerplate route jsut to satisfy a request
 // for building
-router.param('id', controller.params);
+router.param('Commodity', controller.params);
 
 router.route('/')
   .get(controller.get)
   //.post(checkUser, controller.post)
   .post(controller.post)
 
-router.route('/:id')
+router.route('/:Commodity')
   .get(controller.getOne)
   //.put(checkUser, controller.put)
   .put(controller.put)

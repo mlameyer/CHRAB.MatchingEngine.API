@@ -15,6 +15,6 @@ const Bid = new Schema({
     EnteredDateTime: { type: Date, default: Date.now },
     ModifiedDateTime: Date,
     ExpireDateTime: Date
-}, { collection: 'MatchingEngine' });
+}, { collection: 'MatchingEngine.Bids' });
 
 module.exports = mongoose.model('bid', Bid);

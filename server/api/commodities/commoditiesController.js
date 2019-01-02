@@ -1,8 +1,8 @@
 var Commodity = require('./commoditiesModel');
 var _ = require('lodash');
 
-exports.params = function(req, res, next, id) {
-    Commodity.findById(id)
+exports.params = function(req, res, next, Commodity) {
+    Commodity.findById(Commodity)
     .then(function(commodity) {
       if (!commodity) {
         next(new Error('No commodity with that id'));
@@ -26,6 +26,7 @@ exports.get = function(req, res, next) {
 
 exports.getOne = function(req, res, next) {
   var commodity = req.commodity;
+  commodity.findById({Commodity})
   res.json(commodity);
 };
 
